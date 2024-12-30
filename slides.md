@@ -44,7 +44,7 @@ Developing Functional Neural Networks in Brain Organoids with FEP
 
 An **artificially grown**, **in vitro**, tissue resembling parts of the human brain.
 
-![bg right:40% fit](image/slides/brain-organiods-flow.png)
+![bg right:40% fit](image/slides/brain-organoids-flow.png)
 
 ---
 
@@ -54,7 +54,7 @@ An **artificially grown**, **in vitro**, tissue resembling parts of the human br
 
 The purpose of creating an in vitro neurological model is: *to study related diseases in a more defined setting*.
 
-![bg right:40% fit](image/slides/brain-organiods-flow.png)
+![bg right:40% fit](image/slides/brain-organoids-flow.png)
 
 ---
 
