@@ -21,21 +21,6 @@ Developing Functional Neural Networks in Brain Organoids with FEP
 1. ### Proposed Approach
 1. ### Challenges and Considerations
 
-
----
-
-# Introduction
-   - Background
-     - Overview of in vitro brain organoids and their significance in neuroscience.
-     - Introduction to Biological Neural Networks (BNNs) and their applications.
-   - The Dish-Brain Paper
-     - Summary of the "dish-brain" study and its key findings.
-     - Inspiration drawn from the paper for your proposed research.
-   - Objective of the Presentation
-     - Presenting a novel approach to develop functional neural networks in brain organoids.
-     - Highlighting the integration of electrical and chemical stimuli based on FEP theory.
-
-
 ---
 
 # Introduction
@@ -52,7 +37,7 @@ An **artificially grown**, **in vitro**, tissue resembling parts of the human br
 
 ## Understanding Brain Organoids
 
-The purpose of creating an in vitro neurological model is: *to study related diseases in a more defined setting*.
+The purpose: *to study related diseases in a more defined setting*.
 
 ![bg right:40% fit](image/slides/brain-organoids-flow.png)
 
@@ -62,19 +47,32 @@ The purpose of creating an in vitro neurological model is: *to study related dis
 
 ## What's the Barriers?
 
-The brain is an extremely complex system of heterogeneous tissues and consists of a diverse array of neurons and glial cells.
+- Physically hard to construct.
+
+- Functionally hard to develop.
 
 ![bg right:40% ](image/slides/barin-complexity.png)
 
+
 ---
 
-# Problem Statement
-   - Current Limitations
-     - Challenges in reconstructing complex neural networks in vitro.
-   - Need for Functional Reconstruction
-     - Importance of mimicking specific brain regions for targeted research.
-     - Potential benefits of functional network reconstruction in accelerating neuroscience studies.
+# Introduction
 
+## Possible Solution
+
+- Physically: Focusing on reconstructing a **specific barin region**.
+
+![bg right fit](image/slides/barin-anatomy.png)
+
+---
+
+# Introduction
+
+## Possible Solution
+
+- Functionally: **Actively "train"** the organoid besides natural development.
+
+![bg right fit](image\slides\demo-dishbarin.png)
 
 ---
 
