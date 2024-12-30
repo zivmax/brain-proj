@@ -16,7 +16,7 @@ Developing Functional Neural Networks in Brain Organoids with FEP
 # Catalog
 
 1. ### Introduction
-1. ### Theoretical Foundation
+1. ### Background
 1. ### Proposed Approach
 1. ### Challenges and Considerations
 
@@ -75,7 +75,7 @@ The purpose: *to study related diseases in a more defined setting*.
 
 ---
 
-# Theoretical Foundation
+# Background
 ## Free Energy Principle
 
 - Author: Karl Friston (2010)
@@ -87,7 +87,7 @@ The purpose: *to study related diseases in a more defined setting*.
 
 ---
 
-# Theoretical Foundation
+# Background
 ## Free Energy Principle
   - Bayesian Brain Hypothesis.
   - Self-Organized System **minimize** it's **free energy (surprise)**.
@@ -95,44 +95,33 @@ The purpose: *to study related diseases in a more defined setting*.
 
 ---
 
-# Theoretical Foundation
+# Background
 ## Free Energy Principle
 
 - Internal and external state are separated by **markov blanket**.
 
 - Brain makes **variational bayesian inference**. 
 
-- Brain wants to fitting the world **as precise as possible**.
+- Brain fitting the world **as precise as possible**.
 
 ![bg right:45% 95%](image/slides/fep-demo.jpg)
 
 ---
 
-# Proposed Approach
-   - Adapting the Dish-Brain Method
-     - Translating the in-virto BNN training approach to brain organoids.
-     - Key modifications and enhancements for organoid applications.
-   - Integrating Chemical Stimuli
-     - Limitations of using only electrical stimuli for BNN training.
-     - Types of chemicals to be used alongside electrical stimuli.
-     - Role of chemical cues in neural differentiation and connectivity.
-   - Targeting Specific Brain Regions
-     - Selecting particular brain regions for functional reconstruction.
-     - Rationale for focusing on certain regions over full brain reconstruction.
+# Background
+## Dish Brain
 
+Training a BNN playing video game **based on FEP theory**.
+
+![bg right:55% ](image/slides/absract-dishbrain.jpg)
 
 ---
 
-# Methodology
-   - Experimental Design
-     - Steps for setting up in-vitro brain organoids for BNN training.
-     - Protocols for applying electrical and chemical stimuli.
-   - Data Collection and Monitoring
-     - Tools and techniques for monitoring neural activity and connectivity.
-     - Metrics for assessing functional network formation.
-   - Implementation of FEP-Based Training
-     - Algorithms and computational models guided by FEP.
-     - Feedback mechanisms to refine network functionality.
+# Proposed Approach
+
+- Reconstruct organoid of a specific brain region in marco  morphology with emergence of the markers.
+
+- Using external stimuli to help (train) the in virto organoid form the micro morphology (connections between neurons).
 
 
 ---
@@ -146,13 +135,3 @@ The purpose: *to study related diseases in a more defined setting*.
    - Limitations of the Study
      - Potential constraints in fully replicating brain region functionalities.
 
-
----
-
-# Future Work
-   - Validation and Optimization
-     - Plans to validate the approach through experiments and iterative improvements.
-   - Expansion to Other Brain Regions
-     - Exploring the reconstruction of additional brain areas and their interactions.
-   - Long-Term Vision
-     - Towards comprehensive brain region networks and potential full-scale brain models.
