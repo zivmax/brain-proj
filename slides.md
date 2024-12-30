@@ -17,8 +17,7 @@ Developing Functional Neural Networks in Brain Organoids with FEP
 
 1. ### Introduction
 1. ### Background
-1. ### Proposed Approach
-1. ### Challenges and Considerations
+1. ### Proposed Methodology
 
 ---
 
@@ -91,7 +90,7 @@ Lot's of previous work could be referred directly.
 - A normative theory on **living organism's** intelligence
 - Derived from a specific form of **variational bayesian inference**.
 
-![bg right:40%](image/slides/karl-friston.jpeg)
+![bg right:40%](image/slides/karl-friston.webp)
 
 
 ---
@@ -102,8 +101,6 @@ Lot's of previous work could be referred directly.
 ## Free Energy Principle
   - Bayesian Brain Hypothesis.
   - Self-Organized System **minimize** it's **free energy (surprise)**.
-
-
 
 <style>
   .scaled-down-math {
@@ -124,8 +121,6 @@ $$
 $$
 
 </div>
-
-
 
 ---
 
@@ -154,8 +149,8 @@ Training a BNN playing video game **based on FEP theory**.
 
 # Proposed Methodology
 
-- Reconstruct organoid of a specific brain region in marco morphology with emergence of the markers.
+- Reconstruct organoid of a specific brain region in **marco** morphology with emergence of the markers.
 
-- Using external stimuli to help (train) the in virto organoid form the micro morphology (connections between neurons).
+- Using external stimuli to help (train) the in virto organoid form the **micro** morphology (connections between neurons).
 
 
