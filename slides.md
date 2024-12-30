@@ -16,7 +16,6 @@ Developing Functional Neural Networks in Brain Organoids with FEP
 # Catalog
 
 1. ### Introduction
-1. ### Problem Statement
 1. ### Theoretical Foundation
 1. ### Proposed Approach
 1. ### Challenges and Considerations
@@ -60,7 +59,7 @@ The purpose: *to study related diseases in a more defined setting*.
 
 ## Possible Solution
 
-- Physically: Focusing on reconstructing a **specific barin region**.
+- Physically: Focusing on reconstructing a **specific brain region**.
 
 ![bg right fit](image/slides/barin-anatomy.png)
 
@@ -77,13 +76,35 @@ The purpose: *to study related diseases in a more defined setting*.
 ---
 
 # Theoretical Foundation
-   - Free Energy Principle (FEP)
-     - Explanation of FEP and its relevance to neural network formation.
-     - How FEP guides the behavior and learning of BNNs.
-   - Application of FEP in BNN Training
-     - Utilizing FEP to optimize network connectivity and functionality.
-     - Predictive coding and minimizing free energy in neural networks.
+## Free Energy Principle
 
+- Author: Karl Friston (2010)
+- A normative theory on **living organism's** intelligence
+- Derived from a specific form of **variational bayesian inference**.
+
+![bg right:40%](image/slides/karl-friston.jpeg)
+
+
+---
+
+# Theoretical Foundation
+## Free Energy Principle
+  - Bayesian Brain Hypothesis.
+  - Self-Organized System **minimize** it's **free energy (surprise)**.
+
+
+---
+
+# Theoretical Foundation
+## Free Energy Principle
+
+- Internal and external state are separated by **markov blanket**.
+
+- Brain makes **variational bayesian inference**. 
+
+- Brain wants to fitting the world **as precise as possible**.
+
+![bg right:45% 95%](image/slides/fep-demo.jpg)
 
 ---
 
