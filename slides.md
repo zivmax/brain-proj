@@ -169,7 +169,7 @@ Training a BNN playing video game **based on FEP theory**.
 
 - There is still controversy surrounding animal models of depression.
 
-![bg contain right 90%](image/slides/to-hippocampus.png)
+![bg contain right 90%](image/slides/depression-model.png)
 
 ---
 
@@ -191,7 +191,7 @@ Training a BNN playing video game **based on FEP theory**.
 
 <div style="margin-left: 200px">
 
-![](image/slides/depression-model.png)
+![](image/slides/to-hippocampus.png)
 
 </div>
 
