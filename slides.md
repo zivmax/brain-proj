@@ -11,23 +11,22 @@ math: katex
 
 Developing Functional Neural Networks in Brain Organoids with FEP
 
-
 ---
 
 # Catalog
 
-- ### Introduction
-- ### Problem Statement
-- ### Theoretical Foundation
-- ### Proposed Approach
-- ### Challenges and Considerations
+1. ### Introduction
+1. ### Problem Statement
+1. ### Theoretical Foundation
+1. ### Proposed Approach
+1. ### Challenges and Considerations
 
 
 ---
 
 # Introduction
    - Background
-     - Overview of in-vitro brain organoids and their significance in neuroscience.
+     - Overview of in vitro brain organoids and their significance in neuroscience.
      - Introduction to Biological Neural Networks (BNNs) and their applications.
    - The Dish-Brain Paper
      - Summary of the "dish-brain" study and its key findings.
@@ -36,6 +35,36 @@ Developing Functional Neural Networks in Brain Organoids with FEP
      - Presenting a novel approach to develop functional neural networks in brain organoids.
      - Highlighting the integration of electrical and chemical stimuli based on FEP theory.
 
+
+---
+
+# Introduction
+
+## Understanding Brain Organoids
+
+An **artificially grown**, **in vitro**, tissue resembling parts of the human brain.
+
+![bg right:40% fit](image/slides/brain-organiods-flow.png)
+
+---
+
+# Introduction
+
+## Understanding Brain Organoids
+
+The purpose of creating an in vitro neurological model is: *to study related diseases in a more defined setting*.
+
+![bg right:40% fit](image/slides/brain-organiods-flow.png)
+
+---
+
+# Introduction
+
+## What's the Barriers?
+
+The brain is an extremely complex system of heterogeneous tissues and consists of a diverse array of neurons and glial cells.
+
+![bg right:40% ](image/slides/barin-complexity.png)
 
 ---
 
