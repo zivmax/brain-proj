@@ -72,7 +72,7 @@ The purpose: *to study related diseases in a more defined setting*.
 
 - Functionally: **Actively "train"** the organoid besides natural development.
 
-![bg right fit](image\slides\demo-dishbarin.png)
+![bg right fit](image/slides/demo-dishbarin.png)
 
 ---
 
