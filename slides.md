@@ -5,6 +5,10 @@ header: Brain Sciences and Brain Disorders 2024 Fall
 footer: Group 10：刘思昀、虞果、唐林峥
 paginate: true
 math: katex
+style: |
+  section::after {
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+  }
 ---
 
 # Intelligent Brain Organoid
@@ -202,24 +206,24 @@ Training a BNN playing video game **based on FEP theory**.
 
 - External Continual Stimuli
 
-  - Chemical: Corticosterone, IL-6, TNF-α
+  - Chemical: Corticosterone, IL-6, TNF-α.
 
-  - Impairs neural plasticity and reduces network activity
+  - Impairs neural plasticity and reduces network activity.
 
-  - Alters synaptic connectivity
+  - Alters synaptic connectivity.
 
-  - DishBrain-style training
+  - DishBrain-style training including **electical stimuli** and **chemical stimuli**.
 
 ---
 
 # One Specific Design
 ## Application
 
-- Innovative approach to model depression mechanisms
+- Innovative approach to model depression mechanisms.
 
-- Drug screening
+- Drug screening.
 
-- Understanding network-level changes in mental health disorders
+- Understanding network-level changes in mental health disorders.
 
 
 ---
