@@ -2,7 +2,7 @@
 marp: true
 theme: default
 header: Brain Sciences and Brain Disorders 2024 Fall
-footer: Group 10：刘思昀、虞果、唐林峥
+footer: Group 10: 刘思昀、虞果、唐林峥
 paginate: true
 math: katex
 ---
