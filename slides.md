@@ -155,16 +155,17 @@ Training a BNN playing video game **based on FEP theory**.
 
 # Proposed Methodology
 
-- Reconstruct organoid of a specific brain region in **marco** morphology with emergence of the markers.
+- ### Reconstruct in **Marco** Morphology
+  - Reconstruct organoid of a specific brain region with emergence of the markers.
 
-- Using external stimuli to help (train) the in virto organoid form the **micro** morphology (connections between neurons).
+- ### Reconstruct in **Micro** Connectivity
+  - Using external stimuli to help (train) the in virto organoid form the **micro** morphology (connections between neurons).
 
 ---
 
 # One Specific Design
 
 ### A more effective depression model
-
 
 ---
 
@@ -182,20 +183,21 @@ Training a BNN playing video game **based on FEP theory**.
 # One Specific Design
 ## Goal
 
-- Create a functional neural network model to simulate depression-related features.
+1. Combine electrical and chemical stimuli to train a functional healthy hippocampal region in a brain organoid.
 
-- Combine DishBrain’s electrical training with external chemical stimuli.
+1. Introduce common depression-inducing mechanisms, such as toxic compounds and electrical stimulation, to induce a disease-like state in the hippocampal region.
+
 
 ---
 
 # One Specific Design
 ## Experimental Design
 
-- Neuronal Culture
+- Macro Culture
 
-  - Culture hiPSC-derived neurons into Hippocampus-like region directly on MEA Chips.
+  - Culture hiPSC-derived neurons into hippocampal region directly on MEA Chips.
 
-<div style="margin-left: 200px">
+<div style="margin-left: 20%">
 
 ![](image/slides/to-hippocampus.png)
 
@@ -206,15 +208,28 @@ Training a BNN playing video game **based on FEP theory**.
 # One Specific Design
 ## Experimental Design
 
-- External Continual Stimuli
+- Micro Culture
 
-  - Chemical: Corticosterone, IL-6, TNF-α.
+  - Use external stimuli as reward or penalty to train the network.
 
-  - Impairs neural plasticity and reduces network activity.
+<div style="margin-left: 20%">
 
-  - Alters synaptic connectivity.
+![h:280](image/slides/MEA.jpg)
 
-  - DishBrain-style training including **electical stimuli** and **chemical stimuli**.
+</div>
+
+---
+
+
+
+# One Specific Design
+## Experimental Design
+
+- Making it Depressed
+
+  - Chemicals: Corticosterone, IL-6, TNF-α.
+
+  - Training with pathogenic stimuli including **electical** and **chemical**.
 
 ---
 
