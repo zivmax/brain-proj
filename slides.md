@@ -50,7 +50,7 @@ The purpose: *to study related diseases in a more defined setting*.
 
 ## What's the Barriers?
 
-- Physically hard to construct.
+- Physically hard to reconstruct.
 
 - Functionally hard to develop.
 
