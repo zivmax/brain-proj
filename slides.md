@@ -100,30 +100,32 @@ Lot's of previous work could be referred directly.
 
 ---
 
-<div style="margin-top: 100px"></div>
+<div>
 
 # Background
 ## Free Energy Principle
   - Bayesian Brain Hypothesis.
   - Self-Organized System **minimize** it's **free energy (surprise)**.
 
-<style>
-  .scaled-down-math {
-    transform: scale(0.85);
-    transform-origin: top left;
-    margin-left: 10%;
-  }
-</style>
+  <style>
+    .scaled-down-math {
+      transform: scale(0.85);
+      transform-origin: top left;
+      margin-left: 10%;
+    }
+  </style>
 
-<div class="scaled-down-math">
+  <div class="scaled-down-math">
 
-$$
-\begin{align*}
-\underbrace{F(\mu, a; s)}_{\text{free-energy}} &= \underbrace{\mathbb{E}_{q(\psi)} \left[ -\log p(\psi, s, a, \mu \mid \psi) \right]}_{\text{expected energy}} - \underbrace{\mathcal{H}[q(\psi \mid s, a, \mu, \psi)]}_{\text{entropy}} \\
-&= \underbrace{-\log p(s)}_{\text{surprise}} + \underbrace{\text{KL}[q(\psi \mid s, a, \mu, \psi) \parallel p_{\text{Bayes}}(\psi \mid s, a, \mu, \psi)]}_{\text{divergence}} \\
-&\geq \underbrace{-\log p(s)}_{\text{surprise}}
-\end{align*}
-$$
+  $$
+  \begin{align*}
+  \underbrace{F(\mu, a; s)}_{\text{free-energy}} &= \underbrace{\mathbb{E}_{q(\psi)} \left[ -\log p(\psi, s, a, \mu \mid \psi) \right]}_{\text{expected energy}} - \underbrace{\mathcal{H}[q(\psi \mid s, a, \mu, \psi)]}_{\text{entropy}} \\
+  &= \underbrace{-\log p(s)}_{\text{surprise}} + \underbrace{\text{KL}[q(\psi \mid s, a, \mu, \psi) \parallel p_{\text{Bayes}}(\psi \mid s, a, \mu, \psi)]}_{\text{divergence}} \\
+  &\geq \underbrace{-\log p(s)}_{\text{surprise}}
+  \end{align*}
+  $$
+
+  </div>
 
 </div>
 
