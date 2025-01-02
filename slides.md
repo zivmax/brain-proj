@@ -258,10 +258,10 @@ Training a BNN playing video game **based on FEP theory**.
 
 - 刘思昀: 
   - **Works**: Slides, Seminar
-  - **Contents**: Background, Proposed Methodology, Specific Design
+  - **Contents**: Background, Methodology, Design
 - 虞果：
   - **Works**: Seminar
-  - **Contents**: Background, Proposed Methodology
+  - **Contents**: Background, Methodology
 - 唐林峥: 
   - **Works**: Presentation, Slides, Seminar
-  - **Contents**: Introduction, Background, Proposed Methodology, Specific Design
+  - **Contents**: Introduction, Background, Methodology, Design
