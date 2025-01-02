@@ -251,3 +251,17 @@ Training a BNN playing video game **based on FEP theory**.
 - In vitro neurons learn and exhibit sentience when embodied in a simulated game-world; Kagan, Brett J. et al.; Neuron, Volume 110, Issue 23, 3952 - 3969.e8
 
 - Kim SH, Chang MY. Application of Human Brain Organoids-Opportunities and Challenges in Modeling Human Brain Development and Neurodevelopmental Diseases. Int J Mol Sci. 2023 Aug 7;24(15):12528. doi: 10.3390/ijms241512528. PMID: 37569905; PMCID: PMC10420018.
+
+---
+
+# Contribution
+
+- 刘思昀: 
+  - **Works**: Slides, Seminar
+  - **Contents**: Background, Proposed Methodology, Specific Design
+- 虞果：
+  - **Works**: Seminar
+  - **Contents**: Background, Proposed Methodology
+- 唐林峥: 
+  - **Works**: Presentation, Slides, Seminar
+  - **Contents**: Introduction, Background, Proposed Methodology, Specific Design
