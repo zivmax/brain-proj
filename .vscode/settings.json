@@ -1,38 +1,28 @@
 {
-    "latex-workshop.latex.tools": [
-        {
-            "name": "xelatex",
-            "command": "xelatex",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "-output-directory=build",
-                "%DOC%"
-            ]
-        },
-        {
-            "name": "bibtex",
-            "command": "bibtex",
-            "args": [
-                "%DOCFILE%"
-            ]
-        }
-    ],
+    "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.recipes": [
         {
-            "name": "xelatex -> bibtex -> xelatex -> xelatex",
+            "name": "artratex",
             "tools": [
-                "xelatex",
-                "bibtex",
-                "xelatex",
-                "xelatex"
+                "artratex"
+            ],
+        },
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "artratex",
+            "command": "./artratex.sh",
+            "args": [
+                "xa" // Use xelatex and bibtex
             ]
         }
     ],
-    "latex-workshop.latex.outDir": "./build",
-    "latex-workshop.view.pdf.viewer": "tab",
-    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.intellisense.citation.backend": "bibtex",
+    "latex-workshop.latex.outDir": "%DIR%/Build",
+    "latex-workshop.latex.bibDirs": [
+        "Biblio"
+    ],
+    "remote.autoForwardPortsFallback": 0,
     "latex-workshop.latex.clean.fileTypes": [
         "*.aux",
         "*.bbl",
