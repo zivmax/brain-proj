@@ -12,7 +12,7 @@
 %->> Identification
 %---------------------------------------------------------------------------%
 \NeedsTeXFormat{LaTeX2e}%
-\ProvidesClass{ucasthesis}[2014/10/01 v1.0 LaTeX document class]%
+\ProvidesClass{Style/ucasthesis}[2014/10/01 v1.0 LaTeX document class]%
 %---------------------------------------------------------------------------%
 %->> Declare options
 %---------------------------------------------------------------------------%
@@ -97,8 +97,8 @@
 %- top height = 1.0in (fixed) + voffset + topmargin + headheight + headsep 
 \setlength{\textheight}{246.2mm}% set required text height first
 \setlength{\voffset}{-17.4mm}% set vertical offset
-\setlength{\topmargin}{20pt}% vertical margin above header
-\setlength{\headheight}{12pt}% header height
+\setlength{\headheight}{30.16612pt}
+\addtolength{\topmargin}{-18.16612pt}
 \setlength{\headsep}{17.5pt}% vertical margin between header and body text
 \setlength{\footskip}{29.5pt}% vertical margin between footer and body text
 %- specifies the amount of space between paragraphs.
