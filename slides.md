@@ -73,9 +73,9 @@ The purpose: *to study related diseases in a more defined setting*.
 
 ## Possible Solution
 
-- Functionally: **Actively "train"** the organoid besides natural development.
+- Functionally: Actively **"train"** the organoid, giving brain organoids complete stimuli like a real brain will receive.
 
-![bg right:60% fit 95%](image/slides/demo-dishbarin.png)
+![bg right:55% fit 95%](image/slides/demo-dishbarin.png)
 
 ---
 
