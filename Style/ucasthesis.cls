@@ -268,6 +268,8 @@
 \newcommand{\englishtitle}[1]{\def\ucas@value@englishtitle{#1}}
 \def\ucas@value@englishauthor{}
 \newcommand{\englishauthor}[1]{\def\ucas@value@englishauthor{#1}}
+\def\ucas@value@englishID{}
+\newcommand{\englishID}[1]{\def\ucas@value@englishID{#1}}
 \def\ucas@value@englishadvisor{}
 \newcommand{\englishadvisor}[1]{\def\ucas@value@englishadvisor{#1}}
 \def\ucas@value@englishdegree{}
@@ -295,7 +297,7 @@
 
         \vspace*{50pt}
 
-        {\LARGE\bfseries {\ Thesis of Bachelor\ }}
+        {\LARGE\bfseries {\ Thesis of Course\ }}
 
         \vspace*{\stretch{2}}
 
@@ -307,10 +309,10 @@
         \begin{tabular}{lc}
             \ucas@label@englishtitle & \ulenhance[1.2pt]{\ulextend{\ucas@value@englishtitle}}\\
             \ucas@label@englishauthor & \ulenhance[1.2pt]{\ulextend{\ucas@value@englishauthor}}\\
-            \ucas@label@englishID & \ulenhance[1.2pt]{\ulextend{\ucas@value@ID}}\\
+            \ucas@label@englishID & \ulenhance[1.2pt]{\ulextend{\ucas@value@englishID}}\\
             \ucas@label@englishyear & \ulenhance[1.2pt]{\ulextend{\ucas@value@year}}\\
             \ucas@label@englishinstitute & \ulenhance[1.2pt]{\ulextend{\ucas@value@englishinstitute}}\\
-            \ucas@label@englishmajor & \ulenhance[1.2pt]{\ulextend{\ucas@value@major}}\\
+            \ucas@label@englishmajor & \ulenhance[1.2pt]{\ulextend{\ucas@value@englishmajor}}\\
             \ucas@label@englishadvisor & \ulenhance[1.2pt]{\ulextend{\ucas@value@englishadvisor}}\\
             % & \ulenhance[1.2pt]{\ulextend{\ucas@value@advisorsec}}\\
             % \ucas@label@degree & \ulenhance[1.2pt]{\ulextend{\ucas@value@degreetype\ucas@value@degree}}\\
