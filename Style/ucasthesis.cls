@@ -119,16 +119,22 @@
     \hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi%
 }
 %- underline
+\usepackage{xeCJK}
+\usepackage{xeCJKfntef}
 \usepackage{ulem}
-\ifxetex% use underline from xeCJKfntef
-    \newcommand{\CJKunderlinecolor}{\color[rgb]{0,0,0}}% set underline color
-    \renewcommand{\uline}[1]{\CJKunderline{#1}}% unified name
-\else% use underline from ulem
-    \RequirePackage{ulem}%
+
+% Then your conditional code:
+\ifxetex
+    \newcommand{\CJKunderlinecolor}{\color[rgb]{0,0,0}}
+    \renewcommand{\uline}[1]{\CJKunderline{#1}}
+\else
+    \RequirePackage{ulem}
 \fi
-\newcommand{\ulenhance}[2][1pt]{% enhanced underline
-    \def\ULthickness{#1}% set thickness
+
+\newcommand{\ulenhance}[2][1pt]{%
+    \def\ULthickness{#1}%
     \uline{#2}}
+
 \newcommand{\ulhshift}{-4em}% horizontal shift on underline
 \newcommand{\ulextend}[2][350pt]{% extend underline length
     \hbox to #1{\hfill\hspace*{\ulhshift}#2\hfill}}
